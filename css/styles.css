@@ -1,0 +1,183 @@
+html {
+        line-height: 1.5;
+        font-family: dunbar-tall,sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+
+body {
+    background-image: url(../imgs/background/abstract3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+button {
+font-family: dunbar-tall,sans-serif;
+}
+
+.color-nav {
+    background-color: transparent;
+}
+
+.sidenav {
+    background: #1e405b;
+}
+
+.sidenav li>a {
+    color: white;
+}
+
+.btn {
+    border-radius: 35px;
+}
+
+.waves-effect.waves-dark.btn.white {
+    color:  #1e405b;
+}
+
+ img {
+    width: 15%;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+@media (max-width: 990px) {
+  img {
+    width: 45%;
+    max-width: 100%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+    margin-top: auto;
+    padding-top: 7px;
+    
+  }
+}
+.home-wrapper {
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 30px;
+    height:70%;
+    width: 50%;
+    background: rgba(30,64,91,0.68);
+    position: absolute;
+    z-index: 900;
+    display: flex;
+    flex-flow: row-wrap;
+}
+
+
+h4 {
+    font-weight: 500;
+    font-size: 20pt;
+    color: #eeeeee;
+    margin-top: 130px;
+    margin-left: 50px;
+    position: relative;
+    z-index: 950;
+}
+
+h2 {
+    font-weight: 800;
+    margin-left: 50px;
+    margin-top: 5px;
+    position: relative;
+    z-index: 950;
+}
+
+h5 {
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 5px;
+    position: relative;
+    z-index: 950;
+}
+
+.input-field {
+    width: 50%;
+    z-index: 950;
+    position: relative;
+    margin-left: 60px;
+}
+
+label {
+    color: white;
+}
+.input-field>label {
+    color: white;
+    margin-left: 50px;
+}
+
+input[type=email]:not(.browser-default) {
+    border-bottom: 1px solid white;
+    margin-left: 50px;
+}
+
+.input-field.inline input, .input-field.inline .select-dropdown {
+position: relative;
+z-index: 950;
+}
+.input-field .helper-text {
+    color: white;
+    margin-left: 50px;
+}
+
+#send {
+    position: relative;
+    z-index: 950;
+}
+
+
+.card.small {
+    width: 80%;
+    background: rgba(30,64,91,0.68);
+    margin-top: 135px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.card-title.center.white-text {
+    font-weight: 800;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.title-modal {
+    color: #1e405b;
+    font-weight: 900;
+
+}
+
+.lorem {
+    color: #1e405b;
+    line-height: 150%;
+}
+
+.input-field.col.s6.btn.waves-effect.waves-light {
+    background: #1e405b;
+    margin-left: 10px;
+    width: 97%;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+    border-bottom: white;
+    box-shadow: #1e405b;
+}
+@media (max-width: 600px) {
+    .home-wrapper {
+        width: 90%;
+        height: 65%;
+    }
+}
+
+
+@media (max-width: 975px) and (min-width: 601px) {
+    .home-wrapper {
+
+        height: 78%;
+    }
+}

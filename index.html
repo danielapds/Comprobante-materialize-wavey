@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vjt0voi.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+
+    <!--RESPONSIVE SIDE NAV-->
+    
+  <nav class="color-nav">
+    <div class="nav-wrapper">
+      <a href="" class="brand-logo">
+        <img class="logo" src="./imgs/logo/wavey2.png" alt="wavey">
+      </a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="tap" href="#">Home</a></li>
+        <li><a class="tap" href="#">Products</a></li>
+        <li><a class="tap" href="#">Support</a></li>
+        <li><a class="tap" href="#">About</a></li>
+        <li><a href="#">
+          <button data-target= "modal1" class="btn modal-trigger waves-effect waves-dark white pulse">Login</button></a></li>
+          <div id="modal1" class="modal ">
+            <div class="modal-content">
+              <h4 class="title-modal">Lorem ipsum</h4>
+              <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Iste assumenda ea ratione possimus pariatur sapiente? Incidunt porro ut repudiandae quas quibusdam sequi excepturi blanditiis, 
+                itaque culpa? Deleniti porro illo repellendus.</p>
+    
+
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6 btn waves-effect waves-light">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First name</label>
+        </div>
+      </div>
+        <div class="input-field col s6 btn waves-effect waves-light">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6 btn waves-effect waves-light">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat btn-large">Agree</a>
+      </div>
+          </div>
+            </div>
+      </ul>
+    </div>
+    </nav>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Login</a></li>
+  </ul>
+
+  <div class="row">
+    <div class="col s12 m6 l6">
+      <div class="home-wrapper hoverable"></div>
+      <h4>Wait a moment, how did you get here?</h5>
+      <h2>Our new website is on the way.</h2>
+      <h5>Sign up to be the first one to know when we launch.</h4>
+        <div class="input-field inline">
+          <input id="email_inline" type="email" class="validate">
+          <label for="email_inline">Email</label>
+          <span class="helper-text" data-error="It seems like there's a mistake, try with @" data-success="You have succesfully subscribed">Your email must have @</span>
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="col s12 m6 l6">
+      <div class="col s12 m6 l6">
+        <div class="card small hoverable">
+          <div class="card-content">
+            <span class="card-title center white-text">Wavey</span>
+            <div class="divider white"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Temporibus praesentium nobis tempora eos.</p>
+          </div>
+            <div class="card-action center">
+            <a class="idk white-text" href="#">Lorem ipsum</a>
+        </div>
+        </div>
+      </div>
+
+    <div class="col s12 m6 l6">
+      <div class="card small hoverable">
+        <div class="card-content">
+          <span class="card-title center white-text">Wavey</span>
+          <div class="divider white"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Temporibus praesentium nobis tempora eos.</p>
+        </div>
+        <div class="card-action center">
+          <a class="idk white-text" href="#">I didn't know</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   
+ 
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+   <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+
+    M.AutoInit(); 
+
+    var elem = document.querySelector('.sidenav');
+  var instance = new M.Sidenav(elem);
+
+   // with jquery
+
+  $(document).ready(function(){
+   $('.sidenav').sidenav();
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, options);
+  });
+</script>
+  </body>
+</html>
+      
